@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elemento</title>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+
+color: rgb(87, 153, 153);
+text-decoration: none;
+
+}
+
+a:visited{
+color: rgb(107, 107, 57);
+
+
+}
+a:active{
+
+    color: blue;
+    text-decoration: underline;
+}
+a:hover{
+
+color: white;
+background-color: blue;
+}
+
+.especial{
+
+    background-color: rgb(231, 143, 9);
+}
+
+.especial::after{
+   content: '✈';
+
+}
+
+.especial::before{
+
+    content: '✈';
+}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+    <!--
+usamos nessas atividades 
+      #para id
+      .para class
+      :pseudo-class
+      ::pseudo-elemento
+      > clildren(indica pai exemplo  h2 > p)
+
+    -->
+    
+    <h1>gerando links</h1>
+    <ul>
+
+<li><a href="https://youtube.com/futparodias" target="_blank" class="especial">youtube2 </a></li>
+<li><a href="https://youtube.com/cursoemvideo" target="_blank">youtube</a></li>
+
+
+
+    </ul>
+</body>
+</html>

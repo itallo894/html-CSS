@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+
+
+
+
+body{
+
+background-color: rgb(223, 203, 180);
+
+
+
+
+}
+
+header{
+
+background-image: linear-gradient(rgb(31, 180, 31),black );
+padding: 10px;
+margin: -8px;
+
+
+}
+h1{
+
+color: white;
+text-align: center;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+p{
+
+color: white;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+
+    background-image: linear-gradient(rgb(31, 180, 31),black );
+padding: 5px;
+margin: -8px;
+
+
+}
+
+nav > a{
+
+color: white;
+padding: 10px;
+text-decoration: none;
+
+
+}
+nav > a:hover{
+
+background-color: green;
+
+
+
+}
+main{
+background-color: white;
+
+margin-top: -20px;
+margin-right: 50px;
+margin-left: 50px;
+box-shadow: 1px 1px 1px 2px  rgba(124, 124, 124, 0.918);
+
+}
+ h2{
+
+color: rgb(38, 148, 38);
+text-indent: 10px;
+
+}
+main > p{
+    color: black;
+    text-align: justify;
+    text-indent: 15px;
+    margin: 8px;
+   
+}
+.versao{
+    background-image: linear-gradient(to right,rgb(110, 214, 110),white );
+text-align: justify;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: x-large;
+color: rgb(3, 80, 3);
+font-weight: bold;
+}
+span{
+
+    background-color: rgb(59, 192, 59);
+
+
+}
+span > a{
+
+color: black;
+text-decoration: none;
+font-weight: bold;
+
+}
+.imagem{
+
+    text-align: center;
+
+  
+}
+img{
+  
+    padding: 5px;
+}
+.imagem2{
+    text-align: center;
+
+
+}
+.youtube{
+    position: relative;
+background-color: var(--cor4);
+height:  0px;
+margin-left: -20px;
+margin-right: -20px;
+margin-bottom: 15px;
+padding-bottom: 59%;
+
+}
+.youtube > iframe{
+position: absolute;
+top: 10%;
+left: 5%;
+width: 90%;
+height: 90%;
+}
+h3{
+text-align: center;
+background-color: rgb(59, 185, 59);
+margin: 10px;
+font-weight: bold;
+
+
+}
+.formulario{
+background-color: rgb(136, 218, 136);
+margin-top: -15px;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 5px;
+}
+.formulario > p{
+color: black;
+text-indent: 5px;
+
+
+
+}
+footer{
+background-color: red;
+color: aliceblue;
+text-align: center;
+font-weight: bold;
+}
